@@ -1,0 +1,26 @@
+.card{
+    background-color: rgba(110, 236, 43, 0.53);
+    max-width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgb(174, 174, 174);
+    display: inline-block;
+    margin: 10px;
+    
+}
+.card .image{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.card .title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.card .description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+}

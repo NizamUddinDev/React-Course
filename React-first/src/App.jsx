@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header';
 import Section from './components/Section';
 import Footer from './components/Footer';
+import Card from './components/Card'
 
 const App = () => {
   return (
@@ -25,9 +26,23 @@ const App = () => {
         fruit4 ="Peaches"
         fruit5 ="Apple"
       />
+
+      {/* 
+        The below is card section wher we will reuse the card component
+      */}
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      
       <Footer />
     </>
   )
 }
 
 export default App
+
