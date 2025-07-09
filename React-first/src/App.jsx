@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from './components/Header';
+import Section from './components/Section'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <h1>My First React Web Page</h1>
+      <Header/>
+      <Section />
+    </>
   )
 }
 
